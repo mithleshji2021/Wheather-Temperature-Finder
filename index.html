@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="check-tem">--- Check Temperature ---</div>
+    <div class="card">
+        
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+
+        <i>
+            <p class="error">Error : Invalid City Name</p>
+        </i>
+
+        <div class="wheather">
+            <img src="images/clear.png" class="wheather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Gurgaon</h2>
+            <!-- <div class="wheather-type">haze</div> -->
+            <h2 class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+
+                    </div>
+                </div>
+
+            </h2>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
